@@ -75,6 +75,7 @@ const config: ControlPanelConfig = {
         ],
         ['metrics'],
         ['adhoc_filters'],
+        ['emit_filter'],
       ],
     },
     {

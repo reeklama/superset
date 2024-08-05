@@ -370,6 +370,14 @@ const sort_by_metric: SharedControlConfig<'CheckboxControl'> = {
   ),
 };
 
+const emit_filter: SharedControlConfig<'CheckboxControl'> = {
+  type: 'CheckboxControl',
+  label: t('EMIT DASHBOARD CROSS FILTERS'),
+  description: t(
+    'Сrosses out the lines',
+  ),
+};
+
 export default {
   metrics: dndAdhocMetricsControl,
   metric: dndAdhocMetricControl,
@@ -409,4 +417,5 @@ export default {
   temporal_columns_lookup,
   currency_format,
   sort_by_metric,
+  emit_filter
 };
