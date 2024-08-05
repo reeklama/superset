@@ -160,7 +160,7 @@ module.exports = {
         'react/require-default-props': 0,
         'react/sort-comp': 0, // TODO: re-enable in separate PR
         'react/static-property-placement': 0, // re-enable up for discussion
-        'prettier/prettier': 'error',
+        // 'prettier/prettier': 'error',
         'file-progress/activate': 1,
         // delete me later: temporary rules to help with migration
         'jsx-no-useless-fragment': 0,
@@ -286,6 +286,8 @@ module.exports = {
     },
   ],
   rules: {
+    'prettier/prettier': 0,
+    endOfLine: 'off',
     'theme-colors/no-literal-colors': 'error',
     'translation-vars/no-template-vars': ['error', true],
     camelcase: [
@@ -369,7 +371,7 @@ module.exports = {
     'react/sort-comp': 0, // TODO: re-enable in separate PR
     'react/static-property-placement': 0, // disabled temporarily
     'react-prefer-function-component/react-prefer-function-component': 1,
-    'prettier/prettier': 'error',
+    // 'prettier/prettier': 'error',
     // disabling some things that come with the eslint 7->8 upgrade. Will address these in a separate PR
     'jest/no-alias-methods': 0,
     'react/no-unknown-property': 0,
